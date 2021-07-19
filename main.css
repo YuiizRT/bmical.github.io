@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #142D4C;
+    background-color: #ECECEC;
+}
+
+.main{
+    width: 600px;
+    margin: 1rem auto;
+    height: 800px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.cal{
+    font-size: 18px;
+    width: 500px;
+    padding: 10%;
+    height: 300px;
+    background-color: #9FD3C7;
+    border-radius: 50px;
+    position: absolute;
+    top: 14px;
+    left: auto;
+    box-shadow: 1px 1px 5px gainsboro; 
+}
+
+.button{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    border: 1px outset black ;
+}
+
+.head{
+    padding: 5px;
+    width: 168px;
+    height: 30px;
+    background-color: #9FD3C7 ;
+    position: absolute;
+    top: 4px;
+    left: 167px;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+.head_result{
+    padding: 5px;
+    width: 168px;
+    height: 30px;
+    background-color: #9FD3C7 ;
+    position: absolute;
+    top: -11px;
+    left: 167px;
+    border-radius: 50px;
+    z-index: 1;
+}
+
+.result{
+    font-size: 18px;
+    width: 500px;
+    padding: 7%;
+    height: 503px;
+    background-color: #9FD3C7;
+    border-radius: 50px;
+    position: absolute;
+    top: 343px;
+    left: auto;
+    box-shadow: 1px 1px 5px gainsboro; 
+}
+
+.img img {
+    width: 400px;
+    height: 340px;
+    border-radius: 50px;
+    position: absolute;
+    top: 125px;
+    left: 50px;
+}
+
+.footer{
+    width: 300px;
+    height: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8px;
+    color: #bdbdbd;
+    position: absolute;
+    top: 858px;
+    left: 101px;
+}
